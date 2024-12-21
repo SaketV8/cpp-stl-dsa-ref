@@ -1,0 +1,46 @@
+# Ignore build artifacts and temporary files
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Ignore directories created by macOS
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore folders
+.vscode/
+build/
+dist/
+
+# Ignore operating system specific files
+Thumbs.db
+desktop.ini
+
+# Ignore assets with temporary edits
+*.bak
+*.~*~
+
+# Ignore compiled and intermediate files
+cpp-stl-code/**/*.out
+cpp-stl-code/**/*.exe
+cpp-stl-code/**/*.tmp
+
