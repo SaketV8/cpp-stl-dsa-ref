@@ -307,7 +307,7 @@ int main()
 - [ ] ~~Getting started with cpp [will be added later]~~
 - [x] Vector
 - [x] Stack
-- [ ] Queue
+- [x] Queue
 - [ ] Priority-Queue
 - [ ] Set
 - [ ] Unordered-Set
