@@ -53,5 +53,6 @@ python build.py
 > After successfull `build.py` execution it will say `Now you can commit changes to github.com 😻`
 > then you can push your changes
 
+6. After building don't forget to check the `<TODO>` in `utils/POST_README.md`
 
-6. Submit a pull request. Your changes will be merged after a review.
+7. Submit a pull request. Your changes will be merged after a review.

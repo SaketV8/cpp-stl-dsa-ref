@@ -3,14 +3,16 @@
 
 - [ ] ~~Getting started with cpp [will be added later]~~
 - [x] Vector
-- [ ] Stack
+- [x] Stack
+- [x] Queue
+- [ ] Priority-Queue
+- [ ] Set
+- [ ] Unordered-Set
+- [ ] Map
+- [ ] Unordered-Map
+- [ ] List
 - [ ] Deque
-- [ ] priority_queue
-- [ ] set
-- [ ] unordered_set
-- [ ] map
-- [ ] unordered_map
-- [ ] multimap
+- [ ] Pair
 
 > [!WARNING]
 >
