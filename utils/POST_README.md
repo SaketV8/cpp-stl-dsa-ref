@@ -5,7 +5,7 @@
 - [x] Vector
 - [x] Stack
 - [x] Queue
-- [ ] Priority-Queue
+- [x] Priority-Queue
 - [ ] Set
 - [ ] Unordered-Set
 - [ ] Map
