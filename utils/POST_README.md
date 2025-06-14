@@ -6,7 +6,7 @@
 - [x] Stack
 - [x] Queue
 - [x] Priority-Queue
-- [ ] Set
+- [x] Set
 - [ ] Unordered-Set
 - [ ] Map
 - [ ] Unordered-Map
