@@ -7,7 +7,7 @@
 - [x] Queue
 - [x] Priority-Queue
 - [x] Set
-- [ ] Unordered-Set
+- [x] Unordered-Set
 - [ ] Map
 - [ ] Unordered-Map
 - [ ] List
