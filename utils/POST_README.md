@@ -8,7 +8,7 @@
 - [x] Priority-Queue
 - [x] Set
 - [x] Unordered-Set
-- [ ] Map
+- [x] Map
 - [ ] Unordered-Map
 - [ ] List
 - [ ] Deque
