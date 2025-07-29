@@ -10,9 +10,9 @@
 - [x] Unordered-Set
 - [x] Map
 - [x] Unordered-Map
-- [ ] List
-- [ ] Deque
+- [x] Deque
 - [ ] Pair
+- [ ] List
 
 > [!WARNING]
 >
