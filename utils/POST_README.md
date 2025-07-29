@@ -9,7 +9,7 @@
 - [x] Set
 - [x] Unordered-Set
 - [x] Map
-- [ ] Unordered-Map
+- [x] Unordered-Map
 - [ ] List
 - [ ] Deque
 - [ ] Pair

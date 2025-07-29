@@ -3,9 +3,10 @@ using namespace std;
 
 int main()
 {
-    // ========== Note ========== //
+    // ========== Note ======================== //
     // std::map stores key-value pairs
     // Keys are unique and sorted in ascending order by default
+    // Average time complexity: O(log n) for insert/find/erase
     // ======================================== //
 
     // ========== Declaration ========== //
@@ -68,7 +69,7 @@ int main()
     // Access using key (inserts default value if key is absent!)
     cout << m[1] << "\n"; // returns "" if key 1 not present
 
-    // at operator
+    // at() — throws std::out_of_range if key not found
     cout << m.at(5) << "\n";
 
     // find() — returns iterator to key, or end() if not found
@@ -82,6 +83,8 @@ int main()
     // ======================================== //
 
     // ========== Iterating over map ========== //
+
+    // 🌳 NOTE: Order of output is sorted
 
     // 🌸 Method 1: range-based for loop
     for (auto [key, value] : m)
