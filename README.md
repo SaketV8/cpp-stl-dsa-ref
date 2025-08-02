@@ -36,6 +36,14 @@ using namespace std;
 
 int main()
 {
+    // ========== Working Principle ========== //
+    // Dynamic array — stores elements in contiguous memory.
+    // Allows O(1) random access via index and fast push_back().
+    // Insertion/deletion in middle/front is O(n) (shifting needed).
+    // Resizes by allocating new memory when capacity is exceeded.
+    // ======================================== //
+    // ======================================== //
+
     // ========== Declaration ========== //
     // Creates an empty vector of integers.
     vector<int> v;
