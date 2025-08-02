@@ -12,7 +12,7 @@
 - [x] Unordered-Map
 - [x] Deque
 - [x] Pair
-- [ ] List
+- [x] List
 
 > [!WARNING]
 >
