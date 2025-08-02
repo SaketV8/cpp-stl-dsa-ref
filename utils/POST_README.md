@@ -11,7 +11,7 @@
 - [x] Map
 - [x] Unordered-Map
 - [x] Deque
-- [ ] Pair
+- [x] Pair
 - [ ] List
 
 > [!WARNING]
