@@ -56,9 +56,17 @@ int main()
     // Copies all elements from v1 to v2.
     vector<int> v1 = {1, 2, 3};
     vector<int> v2(v1);
+    // Copies all elements from v3 to v4.
+    vector<int> v3 = {1, 2, 3};
+    vector<int> v4(v3.begin(), v3.end());
 
     // 2D vector for matrices
     vector<vector<int>> mat;
+
+    int m = 3;
+    int n = 3;
+    // m x n matrix initialized with 0 || m = row, n = col
+    vector<vector<int>> mat(m, vector<int>(n, 0));
     // ======================================== //
     // ======================================== //
 
@@ -69,6 +77,12 @@ int main()
 
     // Add 14 to the position (start) of the vector
     v.insert(v.begin(), 10);
+
+    // Add 14 to the position (end) of the vector
+    v.insert(v.end(), 14);
+
+    // Adds all three values at once to the end of the vector
+    v.insert(v.end(), {14, 20, 25});
     // ======================================== //
     // ======================================== //
 
@@ -110,8 +124,38 @@ int main()
     // Checks if the vector is empty
     v.empty(); // return true or false
 
-    // Sorting [Time complexity: O(n log n)]
+    // Sorting [Time complexity:O(n log n)]
+    // Ascending order (default)
     sort(vec.begin(), vec.end());
+    // Descending order
+    sort(vec.begin(), vec.end(), greater<int>());
+    // Reverse vector
+    reverse(vec.begin(), vec.end());
+    // Check if vector is sorted
+    bool sorted = is_sorted(v.begin(), v.end());
+
+    // get maximum value
+    int maxVal = *max_element(v.begin(), v.end());
+    // get minimum value
+    int minVal = *min_element(v.begin(), v.end());
+
+    // Sum of all elements
+    int total = accumulate(v.begin(), v.end(), 0);
+
+    // Product of all elements
+    int product = accumulate(v.begin(), v.end(), 1, [](int a, int b)
+                             { return a * b; });
+
+    // Rotate vector (circular shift)
+    // rotates left by k positions; use reverse trick for right rotation
+    int k = 4;
+    rotate(v.begin(), v.begin() + k, v.end());
+
+    // count how many times 5 appears
+    int countVal = count(v.begin(), v.end(), 5);
+
+    // Binary search (needs sorted vector) returns true if 10 exists
+    bool exists = binary_search(v.begin(), v.end(), 10);
 
     // Iterating vectors
     // you can use <int> instead of <auto>
