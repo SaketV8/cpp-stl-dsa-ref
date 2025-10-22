@@ -13,6 +13,7 @@
 - [x] Deque
 - [x] Pair
 - [x] List
+- [x] String
 
 > [!WARNING]
 >
