@@ -14,6 +14,7 @@
 - [x] Pair
 - [x] List
 - [x] String
+- [x] Multi-Set
 
 > [!WARNING]
 >
