@@ -1544,12 +1544,29 @@ int main() {
   // ======================================== //
   // ======================================== //
 
+  // ========== Getting Minimum & Maximum Element ========== //
   // ========== First & Last Element ========== //
-  if (!ms.empty())
+  // multiset is sorted by default (ascending order)
+  if (!ms.empty()) {
+    // Minimum element (smallest)
     cout << "First element: " << *ms.begin() << "\n";
 
-  if (!ms.empty())
+    // Maximum element (largest)
     cout << "Last element: " << *ms.rbegin() << "\n";
+  }
+
+  // ========== Descending Order Multiset ========== //
+  // If multiset is declared in descending order
+
+  multiset<int, greater<int>> msDesc = {10, 20, 20, 5};
+
+  if (!msDesc.empty()) {
+    // First element is the largest
+    cout << "Maximum element (desc): " << *msDesc.begin() << "\n";
+
+    // Last element is the smallest
+    cout << "Minimum element (desc): " << *msDesc.rbegin() << "\n";
+  }
 
   // ======================================== //
   // ======================================== //
