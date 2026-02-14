@@ -82,6 +82,19 @@ int main()
     // ======================================== //
     // ======================================== //
 
+    // ========== Access First & Last Element ========== //
+
+    // First element
+    auto first = m5.begin();
+    cout << "First key: " << first->first << "\n";
+
+    // Last element
+    auto last = m5.rbegin();
+    cout << "Last key: " << last->first << "\n";
+
+    // ======================================== //
+    // ======================================== //
+
     // ========== Iterating over map ========== //
 
     // 🌳 NOTE: Order of output is sorted
@@ -90,8 +103,12 @@ int main()
     for (auto [key, value] : m)
         cout << key << " => " << value << "\n";
 
-    // Method 2: iterator
+    // Method 2: iterator (ascending)
     for (auto it = m.begin(); it != m.end(); ++it)
+        cout << it->first << " -> " << it->second << "\n";
+
+    // Reverse iteration
+    for (auto it = m5.rbegin(); it != m5.rend(); ++it)
         cout << it->first << " -> " << it->second << "\n";
 
     // ======================================== //
