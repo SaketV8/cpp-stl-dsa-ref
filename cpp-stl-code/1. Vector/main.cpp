@@ -94,8 +94,10 @@ int main()
     // Sorting [Time complexity:O(n log n)]
     // Ascending order (default)
     sort(vec.begin(), vec.end());
-    // Descending order
+    // Descending order (method 1)
     sort(vec.begin(), vec.end(), greater<int>());
+    // Descending order (method 2)
+    sort(vec.rbegin(), vec.rend());
     // Reverse vector
     reverse(vec.begin(), vec.end());
     // Check if vector is sorted
