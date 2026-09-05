@@ -1,7 +1,7 @@
 <!-- ## :memo: Todo -->
 ## :seedling: Todo
 
-- [ ] ~~Getting started with cpp [will be added later]~~
+- [x] Getting started with cpp [starter template]
 - [x] Vector
 - [x] Stack
 - [x] Queue

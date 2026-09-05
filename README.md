@@ -17,12 +17,32 @@
 <h3 align="center"> ⚡ 0. Getting Started </h3>
 
 ```cpp
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long;
+using vi = vector<int>;
+using vl = vector<ll>;
+using vvi = vector<vi>;
+using vvl = vector<vl>;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+
+const int mod = 1e9 + 7;
+const int INF = 1e9;
+
+// starter template for competitive programming platforms like Codeforces, AtCoder, etc.
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // your code from here
     std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }
+
 ```
 </details>
 <details close>
@@ -127,8 +147,10 @@ int main()
     // Sorting [Time complexity:O(n log n)]
     // Ascending order (default)
     sort(vec.begin(), vec.end());
-    // Descending order
+    // Descending order (method 1)
     sort(vec.begin(), vec.end(), greater<int>());
+    // Descending order (method 2)
+    sort(vec.rbegin(), vec.rend());
     // Reverse vector
     reverse(vec.begin(), vec.end());
     // Check if vector is sorted
@@ -1626,7 +1648,7 @@ int main() {
 <!-- ## :memo: Todo -->
 ## :seedling: Todo
 
-- [ ] ~~Getting started with cpp [will be added later]~~
+- [x] Getting started with cpp [starter template]
 - [x] Vector
 - [x] Stack
 - [x] Queue
